@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.feedcont{
+  display: flex;
+  height: 900px;
+width: 209vh;
+background-color: aliceblue;
+  text-align: center;
+  align-items: center;
+
+}
+.headingcont{
+
+ 
+  text-align: center;
+  margin-top: 50px;
+}
+.arrow:hover{
+  background: orangered;
+  color: white;
+  transition: 0.5;
+
+}
+.arowback:hover{
+  color: white;
+}
+
+
+.hoverbut:hover{
+  background: red;
+  transition: 1s;
+
+}
+.arrw:hover{
+  color: white;
+}
+.caresrhover:hover{
+  color: orangered;
+
+}
+header {
+  position: sticky;
+  top: 0px;
+  background-color: #BFDBFE;
+  height: 6rem;
+  transition-property: all; 
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+}
+
+.header.down {
+  top: -6rem;
+}
